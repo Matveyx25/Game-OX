@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>game</title>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="winBlock">
+            <span>YOU WIN!</span>  
+            <img class="btn-replay" src="https://aralarm.org/wp-content/uploads/2018/05/retake.png" alt="">
+        </div>
+        <div class="content">
+            <button class="btn-rules" onclick="toggleRules()">?</button>
+            <div class="rules">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe modi quis cupiditate atque, nulla corrupti similique temporibus iure esse perferendis ratione minima impedit, ipsam reiciendis omnis! Similique tempora veniam ipsum.
+            </div>
+            <div id="wrap">
+
+            </div>
+            <form action="" id="form">
+                <input type="radio" name="form" id="formO" value="O">
+                <label for="formO">O</label>
+                <input type="radio" name="form" id="formX" value="X" checked>
+                <label for="formX">X</label>
+            </form>
+            <div class="text-block">
+            </div>
+        </div>
+    </div>
+    <script src="./lavel.js"></script>
+    <script src="../js/gameMaster.js"></script>
+</body>
+
+</html>
